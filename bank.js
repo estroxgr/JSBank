@@ -1,4 +1,4 @@
-import accounts from './accounts.json';
+import Account from './inc/Account.js'
 
 
 document.addEventListener("DOMContentLoaded", () => {
