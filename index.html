@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- StyleSheet-->
+    <link rel="stylesheet" href="css/design.css">
+    <title>JSBank | JavaScript ATM</title>
+
+</head>
+
+<body>
+
+
+    <div class="bankname">
+        <div class="name">JS-ATM</div>
+        <div class="welcome">Welcome to JSBank</div>
+    </div>
+
+    <div class="screen">
+        <div class="message">
+            Enter Your Account Number
+        </div>
+
+        <div class="prompt">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+            <input type="text" maxlength="1">
+        </div>
+    </div>
+
+    <!-- keypad area -->
+    <div class="keypad">
+        <div data-num="1" class="key">1</div>
+        <div data-num="2" class="key">2</div>
+        <div data-num="3" class="key">3</div>
+        <div data-num="cancel" class="key cancel">Cancel</div>
+        <div data-num="4" class="key">4</div>
+        <div data-num="5" class="key">5</div>
+        <div data-num="6" class="key">6</div>
+        <div data-num="correct" class="key correct">Correction</div>
+        <div data-num="7" class="key">7</div>
+        <div data-num="8" class="key">8</div>
+        <div data-num="9" class="key">9</div>
+        <div class="key ok">OK</div>
+        <div class="key special"></div>
+        <div data-num="0" class="key">0</div>
+        <div class="key special">.</div>
+        <div class="key enter">
+
+        </div>
+
+
+        <script src="./bank.js"></script>
+</body>
+
+</html>

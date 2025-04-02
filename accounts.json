@@ -1,0 +1,32 @@
+[
+    {
+        "name": "John Doe",
+        "code": 2355,
+        "phone": "6901234567",
+        "balance": 150.50
+    },
+    {
+        "name": "Michaelo Scriptio",
+        "code": 8956,
+        "phone": "6987654321",
+        "balance": 75.00
+    },
+    {
+        "name": "Linus Mapper",
+        "code": 1212,
+        "phone": "6934567890",
+        "balance": 450.00
+    },
+    {
+        "name": "Nicholas Arrayman",
+        "code": 3454,
+        "phone": "6978901234",
+        "balance": 200.00
+    },
+    {
+        "name": "Pelsen Echovar",
+        "code": 6577,
+        "phone": "6943210987",
+        "balance": 50.25
+    }
+]
